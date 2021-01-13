@@ -1,0 +1,38 @@
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --blue: #1390D7;
+    --white: #ffffff;
+    --dark: #4B4B4B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Proxima-Black';
+    src: url('./fonts/ProximaNova-Black.woff') format('woff');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Proxima-Bold';
+    src: url('./fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Proxima-Black';
+    src: url('./fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Proxima-SemiBold';
+    src: url('./fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+}
+
